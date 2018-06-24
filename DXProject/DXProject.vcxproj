@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Armeniaca.h" />
     <ClInclude Include="Cerasusfps.h" />
     <ClInclude Include="DirectCommon.h" />
     <ClInclude Include="DirectFont.h" />
@@ -148,6 +149,7 @@
     <ClInclude Include="WinUtilities.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Armeniaca.cpp" />
     <ClCompile Include="Cerasusfps.cpp" />
     <ClCompile Include="DirectFont.cpp" />
     <ClCompile Include="DirectGraphics.cpp" />

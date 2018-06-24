@@ -47,6 +47,9 @@
 
 #include "Cerasusfps.h"
 
+//Include Armeniaca Header File
+#include "Armeniaca.h"
+
 //Include Window Basic Header File
 #include "WinUtilities.h"
 
@@ -55,6 +58,9 @@ class CDXProjectCore
 {
 private:
 	DirectGraphics* m_pDirectGraphicsMain;
+	DirectGraphics3D* m_pDirectGraphics3DMain;
+	DirectGraphics3D* m_pDirectGraphics3DTitle;
+	//DirectSurface* m_pDirectSurface;
 
 private:
 	CCerasusfps* m_pCerasusfpsMain;
@@ -63,15 +69,17 @@ public:
 	CDXProjectCore();		//构造函数
 	~CDXProjectCore();		//析构函数
 
-	void DXProjectCoreDrawStatic();
-	void DXProjectCoreDrawFPS();
-
 	BOOL DXProjectCoreInit();		//初始化
 	void DXProjectCoreRelease();	//释放
 
 	void DXProjectCoreUpdate();		//刷新
 	void DXProjectCoreRender();		//渲染
 
+	void DXProjectCoreDrawTitle();	//绘制标题
+	void DXProjectCoreDrawCube();	//绘制几何
+
+	void DXProjectCoreDrawStatic();	//绘制静态
+	void DXProjectCoreDrawFPS();	//绘制fps
 };
 
 #endif // !__DXPROJECTCORE_H_

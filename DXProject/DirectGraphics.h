@@ -26,7 +26,7 @@
 #define __DIRECTGRAPHICS_H_
 
 //Macro Definition
-#ifdef	DIRECTGRAPHICS_EXPORTS
+#ifdef	CERASUS_EXPORTS
 #define DIRECTGRAPHICS_API	__declspec(dllexport)
 #else
 #define DIRECTGRAPHICS_API	__declspec(dllimport)

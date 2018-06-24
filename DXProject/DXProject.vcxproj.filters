@@ -16,6 +16,9 @@
     <Filter Include="Cerasus">
       <UniqueIdentifier>{31333fdc-f426-49da-bb73-83fb0f28a18d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Armeniaca">
+      <UniqueIdentifier>{ce7a7401-8b48-4e53-8cbe-888df4b5a364}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cerasusfps.h">
@@ -75,6 +78,9 @@
     <ClInclude Include="DXProjectCore.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Armeniaca.h">
+      <Filter>Armeniaca</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cerasusfps.cpp">
@@ -127,6 +133,9 @@
     </ClCompile>
     <ClCompile Include="DXProjectCore.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Armeniaca.cpp">
+      <Filter>Armeniaca</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
